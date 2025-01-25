@@ -2,8 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class challenge1 : MonoBehaviour
+public class ClockHand : MonoBehaviour
 {
+    public float R = 1f;
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -13,8 +16,9 @@ public class challenge1 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Vector3 rot=transform.eulerAngles;
-        rot.z += 1;
-        transform.eulerAngles = rot;
+        Vector3 CL = transform.eulerAngles;
+        CL.z += R;
+        transform.eulerAngles = CL;
+
     }
 }

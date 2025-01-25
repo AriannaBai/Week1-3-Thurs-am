@@ -15,7 +15,7 @@ public class FirstScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Vector2 pos = transform.position;
+        Vector3 pos = transform.position;
         pos.x += speed;
         transform.position = pos;
     }

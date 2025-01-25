@@ -4,11 +4,12 @@ using UnityEngine;
 
 public class AnimationDemo : MonoBehaviour
 {
-    public AnimationCurve
-    // Start is called before the first frame update
-    void Start()
+    public AnimationCurve curve;
+     // Start is called before the first frame update
+
+     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
