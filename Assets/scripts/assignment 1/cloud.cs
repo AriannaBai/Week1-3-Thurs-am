@@ -15,9 +15,9 @@ public class cloud : MonoBehaviour
     public float speedMultiplier = 1f; // set the speede in 1 to make it normal and when it increase and make the speed slow down 
 
     [Range(0, 1)]
-    public float t;
+    public float t; // meke sure the t's range is from 0 to 1
 
-    bool back = false;
+    bool back = false; // let the cloud come back
 
 
     // Start is called before the first frame update

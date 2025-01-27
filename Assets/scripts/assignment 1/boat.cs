@@ -17,7 +17,7 @@ public class boat : MonoBehaviour
     {
         Vector2 pos = transform.position;
 
-        pos.x += Input.GetAxisRaw("Horizontal") * Row * Time.deltaTime;
+        pos.x += Input.GetAxisRaw("Horizontal") * Row * Time.deltaTime; // control the boat to move by the keyboard and 'horizontal"is more convenient
 
         transform.position = pos;
     }

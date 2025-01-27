@@ -9,13 +9,14 @@ public class windmill : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+     
+     
     }
 
     // Update is called once per frame
     void Update()
     {
-        Vector3 fan = transform.eulerAngles;
+        Vector3 fan = transform.eulerAngles; // to make the fan moving and changing the rotation 
         fan.z += Fan;
         transform.eulerAngles = fan;
     }
